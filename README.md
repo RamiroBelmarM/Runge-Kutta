@@ -48,6 +48,6 @@ int main(){
 
 ```
 
-# imagen de prueba
+# imagen de prueba, sistema lorenz
 
 ![Alt text](https://raw.githubusercontent.com/RamiroBelmarM/Runge-Kutta/main/test/lorenz_test.png)
