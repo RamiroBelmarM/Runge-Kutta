@@ -1,10 +1,11 @@
 # Runge-Kutta
 platilla integrador para sistemas ecuaciones diferenciales ordinarias
 
+# modificar función ode para lo que convenga 
 ```cpp
 // del rk.h
-m //dimension del ODE
-coeff //vector de coeficientes
+m=3 //dimension del ODE
+coeff={10,28,8/3} //vector de coeficientes
 dt // paso h
 
 //modificar ode()
@@ -25,7 +26,11 @@ dvector ode(dvector x){
     delete [] dxdt;
     return temp;
 }
+```
 
+
+
+```cpp
 //en main
 #include "./../src/rk.h"
 int main(){
