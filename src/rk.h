@@ -9,6 +9,9 @@ class RK{
         int m=3;
         dvector coeff;
 
+        //esta parte debes de modificar para el sistema que convenga
+        //solo la funcion ode
+        //modificar también m, para lo que convenga
         dvector ode(dvector x){
             dvector temp;
             double *dxdt;
