@@ -1,5 +1,5 @@
 # Runge-Kutta RK4 RK1
-plantilla integrador para sistemas ecuaciones diferenciales ordinarias
+plantilla integrador para sistemas de ecuaciones diferenciales ordinarias
 
 # modificar función ode para lo que convenga 
 ```cpp
